@@ -8,7 +8,6 @@ Los 7 archivos, son ejemplos que se han visto en clase que representan las arist
 En lo relativo a los archivos Python:
   El archivo que resuelve el apartado 1, para ejecutarse en la terminal, se tiene que poner el nombre del archivo.py seguido del 
   archivo de texto del grafo que queramos obtener sus 3-ciclos. Por ejemplo: python3 3-ciclos_apartado1.py g2.txt
-  
   En este archivo, se crea un rdd con todas las aristas que son distintas del grafo que le hayamos introducido (funcion vista en clase)
   A continuacion, tal y como se nos sugiere en la pista dada, creamos un rdd de pares 8ordenados por claves) de manera que la clave son
   los nodos del grafo pero los valores son los nodos adyacentes al valor de la clave (sin repetir. Es decir, si tenemos la arista 'A,B',
