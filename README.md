@@ -2,10 +2,12 @@
 entrega de la practica de 3-ciclos programación paralela UCM
 
 En este github se encuentran 3 archivos Python y 7 archivos con extension de archivo de texto plano.
+
 Los 7 archivos, son ejemplos que se han visto en clase que representan las aristas de un grafo, por ejemplo:
   Si en un archivo encontramos A,B significa que del nodo A al nodo B, existe una arista que los une.
   
 En lo relativo a los archivos Python:
+
   El archivo que resuelve el apartado 1, para ejecutarse en la terminal, se tiene que poner el nombre del archivo.py seguido del 
   archivo de texto del grafo que queramos obtener sus 3-ciclos. Por ejemplo: python3 3-ciclos_apartado1.py g2.txt
   En este archivo, se crea un rdd con todas las aristas que son distintas del grafo que le hayamos introducido (funcion vista en clase)
